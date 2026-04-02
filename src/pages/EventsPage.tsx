@@ -4,7 +4,7 @@ import { Plus, Calendar as CalendarIcon, MapPin, Users, Clock, Edit, Trash2, Che
 import { DashboardLayout } from '@/components/layout/DashboardLayout';
 import { PageHeader } from '@/components/dashboard/SharedComponents';
 import { mockEvents } from '@/data/mockData';
-import { FestEvent, EventCategory } from '@/types';
+import { EventCategory } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
