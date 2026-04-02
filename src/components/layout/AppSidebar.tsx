@@ -1,6 +1,6 @@
 import {
   LayoutDashboard, Users, ClipboardCheck, Award, QrCode, Calendar, ScanLine,
-  Shield, Settings, Ticket, BarChart3, Zap
+  Shield, Ticket, BarChart3, Zap
 } from 'lucide-react';
 import { NavLink } from '@/components/NavLink';
 import { useAuth } from '@/contexts/AuthContext';

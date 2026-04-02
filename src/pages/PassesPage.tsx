@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { QrCode, Download, Ticket } from 'lucide-react';
-import QRCode from 'qrcode.react';
+import { Download, Ticket } from 'lucide-react';
+import { QRCodeSVG } from 'qrcode.react';
 import { DashboardLayout } from '@/components/layout/DashboardLayout';
 import { PageHeader, StatusBadge } from '@/components/dashboard/SharedComponents';
 import { mockPasses } from '@/data/mockData';

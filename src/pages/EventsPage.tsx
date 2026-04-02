@@ -28,7 +28,7 @@ const categoryColors: Record<EventCategory, string> = {
 export default function EventsPage() {
   const { user } = useAuth();
   const isAdmin = user?.role === 'admin';
-  const [events, setEvents] = useState(mockEvents);
+  const [events, _setEvents] = useState(mockEvents);
   const [showForm, setShowForm] = useState(false);
   const [categoryFilter, setCategoryFilter] = useState<string>('all');
   const [currentMonth, setCurrentMonth] = useState(3); // April (0-indexed)

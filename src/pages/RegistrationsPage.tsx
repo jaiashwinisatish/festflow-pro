@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Search, Filter, CheckCircle, XCircle, Users } from 'lucide-react';
+import { Search, Filter, CheckCircle, XCircle } from 'lucide-react';
 import { DashboardLayout } from '@/components/layout/DashboardLayout';
 import { PageHeader, StatusBadge } from '@/components/dashboard/SharedComponents';
 import { mockRegistrations, mockEvents } from '@/data/mockData';
