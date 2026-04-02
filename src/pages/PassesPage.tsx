@@ -23,8 +23,8 @@ export default function PassesPage() {
           >
             <div className="bg-gradient-to-br from-primary/20 via-accent/10 to-primary/5 p-6 text-center">
               <div className="bg-card rounded-xl p-4 inline-block shadow-lg">
-                <QRCode value={pass.qrData} size={120} level="H" includeMargin={false}
-                  bgColor="transparent" fgColor="hsl(var(--foreground))" />
+                <QRCodeSVG value={pass.qrData} size={120} level="H"
+                  bgColor="transparent" fgColor="currentColor" />
               </div>
             </div>
             <div className="p-5 space-y-3">
